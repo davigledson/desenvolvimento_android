@@ -1,6 +1,6 @@
 fun main() {
     var str:String? = null
-    str = "davi"
+   // str = "davi"
     if( str == null){
         println("Variavel nula")
     } else {
