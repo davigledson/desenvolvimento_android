@@ -7,7 +7,7 @@ open class Eletronico(marca:String){
 
     }
    protected fun relogio(){
-        println("classes associadas")
+        println("classes associadas ")
     }
     fun ligar(){
         println("ligar")
