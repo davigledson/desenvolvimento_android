@@ -25,7 +25,7 @@ data class RetanguloData(var a:Int,var b:Int){
 data class Informacoes(val rua:String, val num:Int, val Bairro:String,val cpf:Int)
 
 fun endereco(e:Informacoes){
-    
+
 }
 fun main() {
     var ret: Retangulo  = Retangulo(10,20)
