@@ -1,0 +1,19 @@
+OPERADORES RELACIONAIS E OPERADORES LOGICOS
+
+
+
+
+Operadores Relacionais:
+Operador	Descrição	Exemplo	Resultado
+==	Igual a	5 == 7	false
+!=	Diferente de	10 != 10	false
+>	Maior que	15 > 12	true
+<	Menor que	8 < 10	true
+>=	Maior ou igual a	8 >= 8	true
+<=	Menor ou igual a	10 <= 8	false
+
+Operadores Lógicos:
+Operador	Descrição	Exemplo	Resultado
+&&	E lógico	true && false	false
+`		`	OU lógico
+!	NÃO lógico	!true	false
