@@ -2,7 +2,16 @@ package Java_PDO;
 
 public class Cliente {
 public String nome = "davi";
-private int anoNascimento;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    private int anoNascimento;
 protected  float comsumo = 1090f;
 
 //Get e Set
@@ -12,9 +21,10 @@ protected  float comsumo = 1090f;
         return anoNascimento;
     }
 
-    public void setAnoNascimento(int anoNascimento) throws Exception {
+    public void setAnoNascimento(int anoNascimento) {
         if((anoNascimento  <1960) || (anoNascimento> 2025)){
-            throw new Exception("O ano de nascimento está Invalido");
+            this.anoNascimento = 0;
+           // throw new Exception("O ano de nascimento está Invalido");
         }
         this.anoNascimento = anoNascimento;
     }
