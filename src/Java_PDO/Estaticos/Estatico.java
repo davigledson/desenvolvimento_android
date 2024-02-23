@@ -20,6 +20,7 @@ public class Estatico {
         mensagem();
         i();
         int h = n;
+        System.out.println();
     }
 
 
