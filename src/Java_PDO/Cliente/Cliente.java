@@ -1,7 +1,8 @@
-package Java_PDO;
+package Java_PDO.Cliente;
 
 public class Cliente {
 public String nome = "davi";
+public String nome2;
 
     public String getNome() {
         return nome;

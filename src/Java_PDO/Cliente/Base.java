@@ -1,4 +1,4 @@
-package Java_PDO;
+package Java_PDO.Cliente;
 
 public class Base {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 class Silvestre (var nome:String){
  var atk:Int = 0
-    //construtor secundario
+    //Java_PDO.construtor secundario
     constructor(nome:String, atak:Int):this(nome){
         this.atk = atak
     }

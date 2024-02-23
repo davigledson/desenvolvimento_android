@@ -1,4 +1,6 @@
-package Java_PDO;
+package Java_PDO.construtor;
+
+import Java_PDO.Cliente.Cliente;
 
 public class Main_Construtor {
     public static void main(String[] args) {
@@ -13,6 +15,11 @@ public class Main_Construtor {
         System.out.println(c2.idade);
         System.out.println(c2.nome);
         System.out.println(c2.saldo);
+
+        new Cliente();
+        Cliente c1 = new Cliente();
+        c1.nome2 = "teste de importacao 2";
+        System.out.println(c1.nome2);
     }
 
 }

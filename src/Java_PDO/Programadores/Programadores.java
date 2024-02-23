@@ -1,4 +1,4 @@
-package Java_PDO;
+package Java_PDO.Programadores;
 
 public class Programadores {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java_PDO;
+package Java_PDO.Defaults;
 
 public class OBJ_Default {
     public  Integer nome;

@@ -1,4 +1,4 @@
-package Java_PDO;
+package Java_PDO.construtor;
 
 public class Construtor {
     public Integer idade;

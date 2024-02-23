@@ -1,5 +1,7 @@
 package Java_PDO;
 
+import Java_PDO.Cliente.Cliente;
+
 public class Main {
     public static void main(String[] args) {
         Pessoa p = new Pessoa();
@@ -9,5 +11,9 @@ public class Main {
         System.out.print("O seu nome é" + p.str);
         System.out.print("O seu nome é" + p.ano_nascimento);
         p.fala();
+        new Cliente();
+        Cliente c1 = new Cliente();
+        c1.nome2 = "Benedito";
+        System.out.println(c1.nome2);
     }
 }
