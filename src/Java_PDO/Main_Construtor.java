@@ -2,9 +2,9 @@ package Java_PDO;
 
 public class Main_Construtor {
     public static void main(String[] args) {
-        new Construtor("Davi");
-        Construtor c = new Construtor();
-        Construtor c2 = new Construtor("Slva");
+        new Construtor();
+        Construtor c = new Construtor(15,2000f,"Davi");
+        Construtor c2 = new Construtor();
 
         System.out.println(c.idade);
         System.out.println(c.nome);

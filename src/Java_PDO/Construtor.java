@@ -5,10 +5,10 @@ public class Construtor {
     public Float saldo;
     public String nome;
 
-    public Construtor(String h){
-        idade=10;
-        saldo=20.0f;
-        nome = "Benedito";
+    public Construtor(int idade, float saldo, String nome){
+        this.idade=idade;
+        this.saldo= saldo;
+        this.nome = nome;
     }
 
     public Construtor(){
