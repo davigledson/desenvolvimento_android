@@ -9,6 +9,8 @@ public class Main_func {
         op.bonus = 300f;
         float h = op.horaExtra(10, 10);
         System.out.println("O ganho mensal do funcionario" + op.nome + " i de:" + (op.salario + op.bonus +h));
+        op.saudacao();
+       // op.trabalhar();
 
     }
 }
