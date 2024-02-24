@@ -11,6 +11,8 @@ public class Main_func {
         System.out.println("O ganho mensal do funcionario" + op.nome + " i de:" + (op.salario + op.bonus +h));
         op.saudacao();
        // op.trabalhar();
+        System.out.println(op.teste);
+        int g = Categorias.JUNIOR; //não dar para alterar (por ser ter um modificador final)
 
     }
 }
