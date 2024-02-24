@@ -25,4 +25,8 @@ public class Operario extends Funcionario{
     public  void trabalhar(int h,int g){
 
     }
+    @Override
+    public void pagarImposto() {
+        System.out.println("O operario paga 7% de imposto");
+    }
 }
